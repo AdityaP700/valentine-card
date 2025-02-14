@@ -35,7 +35,7 @@ const ValentineMessage = () => {
     "You&apos;ve been on my mind today...",
     "You know what makes the world brighter? 🌟",
     "It&apos;s your beautiful smile and the kindness in your heart. ✨",
-    "I&apos;ve got something magical to share with you... 🎁",
+    "I &apos;ve got something magical to share with you... 🎁",
     "Like day turns into night…",
     "My admiration for you only grows stronger every moment! 💫",
     "No letters today? Honestly, that&apos;s *their* loss—because if anyone deserves to be celebrated, it&apos;s you. 🌟",
@@ -214,7 +214,7 @@ const ValentineMessage = () => {
           >
             <div className="flex items-center space-x-3">
               <Heart className="text-pink-500 group-hover:scale-110 transition-transform duration-300 animate-pulse" />
-              <span className="text-gray-800 font-medium">Hey,there's a message for you ! 💌</span>
+              <span className="text-gray-800 font-medium">Hey,there&apos;s a message for you ! 💌</span>
               <PartyPopper className="text-yellow-400 group-hover:rotate-12 transition-transform duration-300" />
             </div>
           </button>
