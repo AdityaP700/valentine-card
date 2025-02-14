@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { Heart, Stars, Sparkles, Music, Gift, SmilePlus, PartyPopper, Star, Crown, Moon, Sun, Cloud } from 'lucide-react';
+import { Heart, Stars, Sparkles, Music, Gift, PartyPopper, Star, Crown, Moon, Sun } from 'lucide-react';
 import ReactConfetti from 'react-confetti';
 
 const AngryBird = () => (
@@ -18,7 +18,6 @@ const AngryBird = () => (
 
 const ValentineMessage = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [showHearts, setShowHearts] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [clickCount, setClickCount] = useState(0);
   const [showGift, setShowGift] = useState(false);
@@ -33,17 +32,17 @@ const ValentineMessage = () => {
 
   const messages = [
     "Uhmmm! 💝",
-    "You’ve been on my mind today...",
+    "You&apos;ve been on my mind today...",
     "You know what makes the world brighter? 🌟",
-    "It’s your beautiful smile and the kindness in your heart. ✨",
-    "I’ve got something magical to share with you... 🎁",
+    "It&apos;s your beautiful smile and the kindness in your heart. ✨",
+    "I&apos;ve got something magical to share with you... 🎁",
     "Like day turns into night…",
     "My admiration for you only grows stronger every moment! 💫",
-    "No letters today? Honestly, that’s *their* loss—because if anyone deserves to be celebrated, it’s you. 🌟",
-    "Let’s set the record straight: You’re unforgettable—bright, charming, and effortlessly special. 💛",
+    "No letters today? Honestly, that&apos;s *their* loss—because if anyone deserves to be celebrated, it&apos;s you. 🌟",
+    "Let&apos;s set the record straight: You&apos;re unforgettable—bright, charming, and effortlessly special. 💛",
     "Your laugh? The sweetest melody. Your energy? Absolutely magnetic. 😄✨",
-    "FOMO? Nah. They’re missing out—*on you.* Because one day, someone will be speechless telling you how lucky they are to know you. 😉",
-    "So, keep shining. Today isn’t about cards or clichés—it’s about you knowing how rare and radiant you truly are. 💛",
+    "FOMO? Nah. They&apos;re missing out—*on you.* Because one day, someone will be speechless telling you how lucky they are to know you. 😉",
+    "So, keep shining. Today isn&apos;t about cards or clichés—it&apos;s about you knowing how rare and radiant you truly are. 💛",
     "Blushing yet? You should be. 😄",
     "Yours, A Secret Admirer Who Knows You Deserve the World 💫"
   ];
